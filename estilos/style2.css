@@ -1,0 +1,291 @@
+.headernavposicion{
+    position: sticky;
+    width: 100%;
+    background-color: #c8c8c8;
+    padding: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+.headernav{
+    font-weight: bold;
+    color: black;
+    background-color: #c8c8c8
+}
+
+header {
+    background-color: #c8c8c8
+}
+
+.imagenav{
+   width: 120px;
+   height: 120px;
+}
+
+.btnmilo{
+    background-color: #c8c8c8;
+    border: black;
+    border-style:outset;
+}
+
+
+body{
+    font-family: 'Prata', serif;
+    background-image: url("https://i.ibb.co/qjpyP9m/vogue.jpg");
+    background-size: 1366px;
+}
+
+main{
+    margin-bottom: 20px;
+}
+
+#justificarcarrusel{
+    display: flex;
+    justify-content: center;
+    padding: 2% 2%;
+}
+
+.carruselsize{
+    display: flex;
+    width: 50%;
+}
+
+.card1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+    font-size: 20px;
+    column-gap: 15px;
+}
+
+.imagencard1{
+    display:flex;
+    justify-content: right;
+    width: 100%;
+}
+
+.imagencard2{
+    display:flex;
+    justify-content: left;
+    width: 100%;
+}
+
+.textocard{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagensegundacard{
+    width: 50%;
+}
+
+#textosegundacard{
+    text-align: right;
+}
+
+.imagenfooter{
+    width: 5%;
+}
+
+.parrafosmain{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    width: 40%;
+    float: right;
+    text-align: left;
+    padding: 5px;
+    padding-top: 50px;
+    padding-right: 120px;
+}
+
+.parrafosmain2{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    width: 30%;
+    float: left;
+    margin: 20px;
+    padding: 5px;
+    text-align: right;
+    margin-left: 300px;
+}
+
+.espaciosection{
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+.div1{
+    height: 315px;
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.div2{
+    margin-top: 30px;
+    height: 546px;
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+footer div{
+    height: 120px;
+    background-color: #c8c8c8
+}
+
+.floatizquierda{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#div01{
+    grid-area: div01;
+}
+
+.mainsoporte{
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+}
+
+main h1{
+    text-align: center;
+}
+
+.divisordepag{
+    background-color: #c8c8c8
+}
+
+.imgdivisor{
+    width: 90px;
+    height: 90px;
+    padding-left: 602px;
+}
+
+main div select{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-family: 'Prata', serif;
+    font-weight: bold;
+}
+
+#tamañoimgprod{
+    width: 60%;
+}
+
+.adjustimgprod{
+    display: flex;
+    justify-content: center;
+}
+.precioimg1{
+    text-align: center;
+    margin-left: 130px;
+    padding-left: 5px;
+    width: 30%;
+}
+
+.precioimg{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.alturasection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 20%;
+    height: 690px;
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+}
+
+.alturasection2{
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+}
+
+.imglogo{
+    width: 8%;
+} 
+
+.centrarimagen{
+    float: left;
+    margin-left: 530px;
+    margin-right: 530px;
+    height: 225px;
+}
+
+.centrartitulo{
+    text-align: center;
+}
+
+.section1sn{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.548);
+    color: white;
+    justify-content: center;
+}
+
+.section2sn{
+    margin-top: 40px;
+    padding-top: 20px;
+    display:flex;
+    background-color: rgba(0, 0, 0, 0.548);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#imgsec2sn{
+    display: flex;
+}
+
+.section3sn{
+    background-color: rgba(0, 0, 0, 0.548);
+    color: white;
+    margin-top: 40px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.divsection3sn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.maincontacto{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: rgba(0, 0, 0, 0.548);
+    color: white;
+}
+
+.itemcontacto{
+    display: flex;
+    justify-content: center;
+}
+
+#divsdecontacto{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.tamañocarrusel{
+    width: 50%;
+}
+.textoaderecha{
+    float: right;
+    text-align: right;
+    margin-top: 198px;
+}
+
+#dropdown{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
