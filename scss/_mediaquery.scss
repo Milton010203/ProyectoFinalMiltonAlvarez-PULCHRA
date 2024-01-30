@@ -1,0 +1,77 @@
+@media only screen and (max-width: 480px) {
+    .mqbody{
+        background-image: url(https://images.unsplash.com/photo-1574015974293-817f0ebebb74?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW9kYSUyMGVuJTIwYmxhbmNvJTIweSUyMG5lZ3JvfGVufDB8fDB8fHww);
+        background-size: 550px;
+    }
+
+    .mqmain{
+        font-size: 20px;
+    }
+
+
+    .textocard{
+        font-size: 15px;
+        justify-items: center;
+    }
+
+    .imagencard1, .imagencard2{
+        justify-content: center;
+    }
+
+    .aligncentro{
+        display: flex;
+        text-align:center;
+    }
+
+    .card1{
+        display: flex;
+    }
+
+    #textosegundacard{
+        text-align: center;
+    }
+    .section2sn{
+        flex-wrap: wrap;
+        font-size: 10px;
+        justify-content: center;
+    }
+
+    #imgsec2sn{
+        width: 20rem;
+    }
+
+    #txtsec2sn{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .section3sn{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .floatizquierda{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .tamañodivs{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #div02{
+        margin-top: 25px;
+    }
+
+    .alturasection{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
