@@ -1,4 +1,10 @@
 @media only screen and (max-width: 480px) {
+    .displayflexcenter{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     .mqbody{
         background-image: url(https://images.unsplash.com/photo-1574015974293-817f0ebebb74?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW9kYSUyMGVuJTIwYmxhbmNvJTIweSUyMG5lZ3JvfGVufDB8fDB8fHww);
         background-size: 550px;
@@ -30,10 +36,11 @@
     #textosegundacard{
         text-align: center;
     }
+
     .section2sn{
-        flex-wrap: wrap;
+        @extend .displayflexcenter;
         font-size: 10px;
-        justify-content: center;
+        
     }
 
     #imgsec2sn{
@@ -41,22 +48,16 @@
     }
 
     #txtsec2sn{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        @extend .displayflexcenter;
         text-align: center;
     }
 
     .section3sn{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        @extend .displayflexcenter;
     }
 
     .floatizquierda{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        @extend .displayflexcenter;
     }
 
     .tamañodivs{
@@ -69,9 +70,7 @@
     }
 
     .alturasection{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        @extend .displayflexcenter;
         align-items: center;
     }
 }

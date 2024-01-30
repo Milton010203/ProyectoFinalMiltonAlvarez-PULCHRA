@@ -91,7 +91,6 @@ main {
   font-weight: 500;
   color: white;
   width: 40%;
-  float: right;
   text-align: left;
   padding: 5px;
   padding-top: 50px;
@@ -103,7 +102,6 @@ main {
   font-weight: 500;
   color: white;
   width: 30%;
-  float: left;
   margin: 20px;
   padding: 5px;
   text-align: right;
@@ -281,6 +279,11 @@ footer div {
 }
 
 @media only screen and (max-width: 480px) {
+  .displayflexcenter, .alturasection, .floatizquierda, .section3sn, #txtsec2sn, .section2sn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   .mqbody {
     background-image: url(https://images.unsplash.com/photo-1574015974293-817f0ebebb74?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW9kYSUyMGVuJTIwYmxhbmNvJTIweSUyMG5lZ3JvfGVufDB8fDB8fHww);
     background-size: 550px;
@@ -306,28 +309,13 @@ footer div {
     text-align: center;
   }
   .section2sn {
-    flex-wrap: wrap;
     font-size: 10px;
-    justify-content: center;
   }
   #imgsec2sn {
     width: 20rem;
   }
   #txtsec2sn {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     text-align: center;
-  }
-  .section3sn {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .floatizquierda {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
   }
   .tamañodivs {
     text-align: center;
@@ -337,9 +325,6 @@ footer div {
     margin-top: 25px;
   }
   .alturasection {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
   }
 }
