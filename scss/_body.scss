@@ -1,3 +1,8 @@
+@mixin tamaño($width, $height){
+    width: $width;
+    height: $height;
+}
+
 body{
     font-family: 'Prata', serif;
     background-image: url("https://i.ibb.co/qjpyP9m/vogue.jpg");
@@ -107,8 +112,7 @@ main h1{
 }
 
 .imgdivisor{
-    width: 90px;
-    height: 90px;
+    @include tamaño(90px, 90px);
     padding-left: 602px;
 }
 
