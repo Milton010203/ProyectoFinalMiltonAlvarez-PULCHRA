@@ -30,7 +30,6 @@ main{
     background-color: rgba(0, 0, 0, 0.507);
     color: white;
     font-size: 20px;
-    column-gap: 15px;
 }
 
 .imagencard1{
@@ -42,7 +41,7 @@ main{
 .imagencard2{
     display:flex;
     justify-content: left;
-    width: 100%;
+    width: 50%;
 }
 
 .textocard{
