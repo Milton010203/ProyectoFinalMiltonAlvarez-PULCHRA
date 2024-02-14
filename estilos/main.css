@@ -276,7 +276,7 @@ footer div {
   background-color: #c8c8c8;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 700px) {
   .displayflexcenter, .alturasection, .floatizquierda, .section3sn, #txtsec2sn, .section2sn {
     display: flex;
     flex-wrap: wrap;
