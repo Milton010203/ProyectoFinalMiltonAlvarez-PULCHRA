@@ -326,5 +326,44 @@ footer div {
     align-items: center;
   }
 }
+@keyframes botonesnav {
+  0% {
+    transform: scale(1, 1);
+  }
+  20% {
+    transform: scale(1.12, 1.12);
+  }
+  25% {
+    transform: scale(1.14, 1.14);
+  }
+  30% {
+    transform: scale(1.15, 1.15);
+  }
+  40% {
+    transform: scale(1.18, 1.18);
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  60% {
+    transform: scale(1.18, 1.18);
+  }
+  70% {
+    transform: scale(1, 15, 1.15);
+  }
+  75% {
+    transform: scale(1.14, 1.14);
+  }
+  80% {
+    transform: scale(1.12, 1.12);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+.animacionav:hover {
+  animation-duration: 400ms;
+  animation-name: botonesnav;
+}
 
 /*# sourceMappingURL=main.css.map */
